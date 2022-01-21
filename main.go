@@ -8,7 +8,11 @@ func greetings(input string, f func(string)) {
 
 func main() {
 	str := "I must disappear once"
-	greetings(str, func(s string) {
-		fmt.Println(s)
-	})
+	if true {
+		fmt.Println("I will exist")
+	} else {
+		greetings(str, func(s string) {
+			fmt.Println(s)
+		})
+	}
 }
