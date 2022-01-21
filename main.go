@@ -10,5 +10,6 @@ func main() {
 	str := "I must disappear once"
 	greetings(str, func(s string) {
 		fmt.Println(s)
+		fmt.Println(s)
 	})
 }
